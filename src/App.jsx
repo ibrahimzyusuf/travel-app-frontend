@@ -8,13 +8,13 @@ import Packages from "./Pages/Packages/Packages";
 function App() {
   
   return (
-    <BrowserRouter basename="/travel-app-frontend">
+    <>
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/packages' element={<Packages/>} />
       </Routes>
-    </BrowserRouter>  
+    </>  
   )
 }
 
