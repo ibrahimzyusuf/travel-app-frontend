@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Volkhov:ital,wght@0,700;1,700&family=Yesteryear&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+    --font-Vol: 'Volkhov','serif';
+    --font-Pop: 'Poppins','sans-serif';
+    --font-Yester: 'Yesteryear','cursive';
+    --color-black1: ' #2F2F2F';
+    --color-black2: '#1E1D4C';
+    --color-gray1: '#7D7D7D';
+    --color-gray2: '#5E6282';
+    --color-gray3: '#F5F3F3';
+    --width-98:390px;
+    --width-w90:89%;
+    --width-101:420px;
+    --width-102:400px;
+    --height-98: 580px;
+    --height-101: 620px;
+    --height-102: 470px;
+    --height-103: 440px;
+    --height-104: 490px;
+    --font-size-10xl: 155px;
+    --spacing-18: 70px; 
+    /* ... */
+}
