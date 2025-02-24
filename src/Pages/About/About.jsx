@@ -17,8 +17,7 @@ const About = () => {
   return (
     <div className='about'>
       <header className='w-full relative'>
-        <NavBar/>
-        <Hero hero_bg={about_hero} hero_title='About Us' hero_class={'font-Yester font-normal text-8xl text-white'} />
+        <Hero hero_bg={about_hero} hero_title='About Us' hero_class={'font-Yester font-normal text-5xl sm:text-6xl md:text-8xl text-white mx-auto my-auto'} />
       </header>
       <section className='promotion w-full'>
         <div className="promotion_container relative w-11/12 mt-16 mx-auto md:flex items-center ">
@@ -39,7 +38,7 @@ const About = () => {
       </section>
       <section className="youtube w-full">
         <div className="youtube_container mt-18 w-full h-103 relative flex items-center justify-center bg-cover" style={{backgroundImage:`url(${youtube_img})`}}>
-          <h1 className='absolute font-Yester font-normal text-8xl md:text-10xl text-white'>Wanderlust</h1>
+          <h1 className='absolute font-Yester font-normal text-6xl sm:text-8xl md:text-10xl text-white'>Wanderlust</h1>
           <img src={youtube} alt="" className='absolute w-20 md:w-24 h-20 md:h-24' />
         </div>
       </section>

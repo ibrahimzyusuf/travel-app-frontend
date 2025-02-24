@@ -14,8 +14,7 @@ const Home = () => {
   return (
     <div>
       <header className='w-full relative '>
-        <NavBar/>
-        <Hero hero_bg={home_hero} hero_title='No matter where you’re going to, we’ll take you there' hero_class={'font-Pop font-normal text-3xl  text-black1 w-3/5 text-center md:text-5xl'} />
+        <Hero hero_bg={home_hero} hero_title='No matter where you’re going to, we’ll take you there' hero_class={'font-Pop font-normal text-3xl  text-black1 w-3/5 mx-auto my-auto md:text-5xl'} />
       </header>
 
       <section className='category w-full text-center'>

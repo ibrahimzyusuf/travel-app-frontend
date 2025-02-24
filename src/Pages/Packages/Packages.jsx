@@ -10,8 +10,7 @@ const Packages = () => {
   return (
     <div className='packages'>
       <header className='w-full relative '>
-        <NavBar/>
-        <Hero hero_bg={packages_hero} hero_title='Travel With Us' hero_class={'font-Yester font-normal text-7xl md:text-8xl text-white'} />
+        <Hero hero_bg={packages_hero} hero_title='Travel With Us' hero_class={'font-Yester font-normal text-5xl sm:text-6xl md:text-8xl mx-auto my-auto  text-white'} />
       </header>
       <section className="trips w-full">
         <div className="packagescards_container w-11/12 mt-16 mb-20 mx-auto flex flex-wrap gap-5">

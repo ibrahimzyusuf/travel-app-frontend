@@ -18,7 +18,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="middle w-3/12 flex flex-col gap-5">
-                <h1 className='font-Pop font-bold text-lg sm:text-xl '>Company</h1>
+                <h1 className='font-Pop font-bold text-base sm:text-xl '>Company</h1>
                 <ul className='flex flex-col gap-3 font-Pop font-medium text-sm sm:text-base '>
                     <Link to='#'><li>About Us</li></Link>
                     <Link to='#'><li>Careers</li></Link>
@@ -27,7 +27,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div className="right w-3/12 flex flex-col gap-5">
-                <h1 className='font-Pop font-bold text-lg sm:text-xl '>Destinations</h1>
+                <h1 className='font-Pop font-bold text-base sm:text-xl '>Destinations</h1>
                 <ul className='flex flex-col gap-3 font-Pop font-medium text-sm sm:text-base '>
                     <Link to='#'><li>Maldives</li></Link>
                     <Link to='#'><li>Los Angelas</li></Link>
