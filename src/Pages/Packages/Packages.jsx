@@ -1,9 +1,8 @@
 import React from 'react'
 import {packages_cards} from "../../data";
 import PackagesCard from '../../Components/PackagesCard/PackagesCard';
-import NavBar from "../../Components/NavBar/NavBar";
 import Hero from "../../Components/Hero/Hero";
-import packages_hero from "../../assets/images/packages_hero.png";
+import packages_hero from "../../assets/images/packages_hero.webp";
 import Footer from "../../Components/Footer/Footer";
 
 const Packages = () => {

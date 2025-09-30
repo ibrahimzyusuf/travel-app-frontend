@@ -1,15 +1,14 @@
 import React from 'react'
 import SectionHead from '../../Components/SectionHead/SectionHead'
 import Button from '../../Components/Button/Button'
-import bg_style from "../../assets/images/bg_style.png";
+import bg_style from "../../assets/images/bg_style.webp";
 import border from "../../assets/images/border.png";
-import promotion from "../../assets/images/promotion.png";
-import youtube_img from "../../assets/images/youtube_img.png";
+import promotion from "../../assets/images/promotion.webp";
+import youtube_img from "../../assets/images/youtube_img.webp";
 import youtube from "../../assets/images/youtube.png";
-import trend from "../../assets/images/trend.png";
-import NavBar from "../../Components/NavBar/NavBar";
+import trend from "../../assets/images/trend.webp";
 import Hero from "../../Components/Hero/Hero";
-import about_hero from "../../assets/images/about_hero.png";
+import about_hero from "../../assets/images/about_hero.webp";
 import Footer from '../../Components/Footer/Footer';
 
 
@@ -29,9 +28,9 @@ const About = () => {
             <Button btn_title='View Packages'/>
           </div>
           <div className="right relative w-full md:w-1/2 z-0 h-104 flex items-center justify-center opacity-75 md:opacity-100 mx-auto ">
-            <img src={bg_style} alt="" className='w-101 h-101 absolute' />
-            <img src={border} alt="" className='w-101 h-102 absolute'/>
-            <img src={promotion} alt="" className='w-98 h-103 absolute'/>
+            <img src={bg_style} alt="" className='w-101 h-101 absolute' loading='lazy' />
+            <img src={border} alt="" className='w-101 h-102 absolute' loading='lazy' />
+            <img src={promotion} alt="" className='w-98 h-103 absolute' loading='lazy' />
           </div>
         </div>
         
@@ -39,13 +38,13 @@ const About = () => {
       <section className="youtube w-full">
         <div className="youtube_container mt-18 w-full h-103 relative flex items-center justify-center bg-cover" style={{backgroundImage:`url(${youtube_img})`}}>
           <h1 className='absolute font-Yester font-normal text-6xl sm:text-8xl md:text-10xl text-white'>Wanderlust</h1>
-          <img src={youtube} alt="" className='absolute w-20 md:w-24 h-20 md:h-24' />
+          <img src={youtube} alt="youtube" className='absolute w-20 md:w-24 h-20 md:h-24' loading='lazy' />
         </div>
       </section>
       <section className="trend w-full">
         <div className="trend_container w-11/12 mx-auto my-16 flex relative">
           <div className="left absolute md:relative w-full md:w-1/2 z-0 opacity-65 md:opacity-100">
-            <img src={trend} alt="" className='w-98 h-96' />
+            <img src={trend} alt="" className='w-98 h-96' loading='lazy' />
           </div>
           <div className="right relative w-full md:w-1/2 flex flex-col items-start gap-6">
             <SectionHead sec_title='TREND' sec_subtitle='Our Popular Tour Plans' sec_class={'font-Pop font-bold text-2xl md:text-3xl text-black2'}/>

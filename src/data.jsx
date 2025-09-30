@@ -2,20 +2,20 @@ import tour_guide from "./assets/images/tour_guide.png";
 import travelling from "./assets/images/travelling.png";
 import hands from "./assets/images/hands.png";
 import medical_team from "./assets/images/medical_team.png";
-import explore_nature from "./assets/images/explore_nature.png";
-import explore_cities from "./assets/images/explore_cities.png";
-import switzerland_img from "./assets/images/switzerland_img.png";
+import explore_nature from "./assets/images/explore_nature.webp";
+import explore_cities from "./assets/images/explore_cities.webp";
+import switzerland_img from "./assets/images/switzerland_img.webp";
 import switzerland_logo from "./assets/images/switzerland_logo.png";
-import amazon_img from "./assets/images/amazon_img.png";
+import amazon_img from "./assets/images/amazon_img.webp";
 import amazon_logo from "./assets/images/amazon_logo.png";
-import giza_img from "./assets/images/giza_img.png";
+import giza_img from "./assets/images/giza_img.webp";
 import giza_logo from "./assets/images/giza_logo.png";
-import maldives from "./assets/images/maldives.png";
-import switzerland from "./assets/images/switzerland.png";
-import berlin from "./assets/images/berlin.png";
-import torronto from "./assets/images/torronto.png";
-import baku from "./assets/images/baku.png";
-import chineese from "./assets/images/chineese.png";
+import maldives from "./assets/images/maldives.webp";
+import switzerland from "./assets/images/switzerland.webp";
+import berlin from "./assets/images/berlin.webp";
+import torronto from "./assets/images/torronto.webp";
+import baku from "./assets/images/baku.webp";
+import chineese from "./assets/images/chineese.webp";
 
 const category_cards=[{categorycard_img:tour_guide,categorycard_title:'Guided Tours',
 categorycard_description:'sunt qui repellat saepe quo velit aperiam id aliquam placeat.'},

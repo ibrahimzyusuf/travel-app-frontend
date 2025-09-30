@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link,NavLink} from "react-router-dom";
-import footer_img from "../../assets/images/footer_img.png";
+import footer_img from "../../assets/images/footer_img.webp";
 import Logo from '../Logo/Logo';
 
 const Footer = () => {
