@@ -3,7 +3,7 @@ import Button from '../Button/Button'
 
 const TrendyCard = ({trendycard_img,trendycard_logo,trendycard_days,trendycard_users,trendycard_title,trendycard_description}) => {
   return (
-    <div className='trendy_card w-full md:w-96 flex flex-col gap-5 mt-12 text-left'>
+    <div className='trendy_card w-full md:w-96 flex flex-col gap-4 mt-12 text-left'>
         <div className="picture w-full relative">
         <img src={trendycard_img} alt="trendy card imageg" className='w-full' loading='lazy' />
         <img src={trendycard_logo} alt="trendy card logo" className="trendycard_logo w-20 h-20 absolute -bottom-11" loading='lazy' />
